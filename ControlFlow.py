@@ -28,3 +28,13 @@ for w in y :
     summation += w; # w here is = index of y OR
                     # w = y[0], then y[1], till the end
 print(summation);
+
+m = "Hopea";
+newOne = [];
+index = len(m) - 1;
+
+while index >= 0:
+    newOne.append( m[index]);
+    index -= 1;
+
+print(newOne);
